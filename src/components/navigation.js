@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Navigation extends Component {
     render() {
         return (
-            <div className="navigation-box">
+                <div id="box" className="navigation-box">
                 
-            </div>
+                </div>
         )
     }
 }

@@ -20,6 +20,15 @@
 
 .navigation-box {
     background-color: maroon;
-    height: 100px;
-    width: 500px;
+    display: grid;
+    height: 40vh;
+    width: 20vw;
+    transform: translateX(-60vw);
+    z-index: 1000;
+
+    transition: all 1.5s ease;
+}
+
+.move {
+    transform: translateX(0vw);
 }

@@ -22,9 +22,9 @@ class Header extends Component {
   renderNavigation = function() {
     if(this.state.active) {
       console.log('ACTIVE')
-      return (
-        <Navigation />
-      )
+      document.getElementById("box").classList.add('move');
+  } else {
+    console.log('NOT ACTIVE')
   }
   }
 
@@ -34,6 +34,7 @@ class Header extends Component {
       <div className="wrapper">
             <div className="header">
                 <i className="fas fa-bars icon" onClick={()=> this.handleclick() }></i>
+                <Navigation />
                 {this.renderNavigation()}
             </div>
             <div className="content">
