@@ -7,8 +7,13 @@
 .header {
     grid-row: 1/2;
     background-color: #E6E6E6;
+    vertical-align: middle;
+}
 
-    .icon {
-        font-size: 7vh;
-    }
+.icon {
+    color: red;
+    font-size: 7vh;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+        
 }
