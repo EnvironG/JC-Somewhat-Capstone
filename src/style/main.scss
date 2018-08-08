@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 20vh;
+}
+
+.header {
+    grid-row: 1/2;
+    background-color: #E6E6E6;
+
+    .icon {
+        font-size: 7vh;
+    }
+}
