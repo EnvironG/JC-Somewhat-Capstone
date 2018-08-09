@@ -13,6 +13,7 @@ import './style/main.scss';
 import Header from './components/header';
 import Main from './components/main';
 import Side from './components/side';
+import Filler from './components/filler';
 
 
 function main() {
@@ -22,7 +23,8 @@ function main() {
         <Switch>
           <Header>
             <Route path="/" exact component={Main}/>
-            <Route path="/side" exact component={Side}/>
+            <Route path="/side" component={Side}/>
+            <Route path="/filler" component={Filler}/>
           </Header>
         </Switch>
       </BrowserRouter>

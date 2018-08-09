@@ -22,11 +22,21 @@
     background-color: maroon;
     display: grid;
     height: 40vh;
-    width: 20vw;
+    width: 40vw;
     transform: translateX(-60vw);
     z-index: 1000;
 
     transition: all 1.5s ease;
+
+    &__link1 {
+        background-color: cornflowerblue;
+        border: 1px solid orange;
+    }
+
+    &__link2 {
+        background-color: white;
+        border: 1px solid orange;
+    }
 }
 
 .move {
