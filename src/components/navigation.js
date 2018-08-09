@@ -6,8 +6,8 @@ class Navigation extends Component {
     render() {
         return (
                 <div id="box" className="navigation-box">
-                    <Link to="/side" className="navigation-box__link1"><div>Side</div></Link>
-                    <Link to="/filler" className="navigation-box__link2"><div>Filler</div></Link>
+                    <Link to="/side" onClick="window.location.reload()" className="navigation-box__link1"><div>Side</div></Link>
+                    <Link to="/filler" onClick="window.location.reload()" className="navigation-box__link2"><div>Filler</div></Link>
                 </div>
         )
     }
