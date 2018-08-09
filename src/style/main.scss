@@ -15,16 +15,18 @@
     font-size: 7vh;
     padding-left: 1.5vw;
     padding-top: 1.5vh;
+    z-index: 11;
         
 }
 
 .navigation-box {
     background-color: maroon;
     display: grid;
-    height: 100vh;
+    height: 90vh;
     width: 65vw;
     transform: translateX(-65vw);
-    z-index: 1000;
+    
+    z-index: 10;
 
     transition: all 1.5s ease;
 
